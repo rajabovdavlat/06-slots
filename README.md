@@ -1,18 +1,28 @@
-# vue2-pojectt
+# 06. Slots
 
-> a
+**Date:** July 04, 2026
 
-## Build Setup
+### What I Learned
 
-``` bash
-# install dependencies
-npm install
+Today I learned about **Slots** in Vue 2.
 
-# serve with hot reload at localhost:8080
-npm run dev
+Slots allow us to pass HTML content from parent component to child component. 
+It's like creating a reusable "template" where we can put different content.
 
-# build for production with minification
-npm run build
-```
+### Key Things:
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- Named slots (`name="form-header"`)
+- How to use `<slot>` in child component
+- How to pass content using `v-slot` or old `slot="name"` syntax
+- Created a reusable Form component
+
+### Main Conclusion:
+
+Slots make components more flexible and reusable. 
+Instead of hardcoding content, we can pass different HTML from parent to child.
+
+This example shows a reusable form with header, fields, and buttons using named slots.
+
+---
+
+**Status:** Completed !!!
